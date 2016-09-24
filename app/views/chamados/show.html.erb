@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Descricao:</strong>
+  <%= @chamado.descricao %>
+</p>
+
+<p>
+  <strong>Prioridade:</strong>
+  <%= @chamado.prioridade %>
+</p>
+
+<p>
+  <strong>Usuario:</strong>
+  <%= @chamado.usuario %>
+</p>
+
+<p>
+  <strong>Atendente:</strong>
+  <%= @chamado.atendente %>
+</p>
+
+<%= link_to 'Edit', edit_chamado_path(@chamado) %> |
+<%= link_to 'Back', chamados_path %>

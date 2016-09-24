@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  descricao: MyString
+  prioridade: 1
+  usuario: one
+  atendente: one
+
+two:
+  descricao: MyString
+  prioridade: 1
+  usuario: two
+  atendente: two
